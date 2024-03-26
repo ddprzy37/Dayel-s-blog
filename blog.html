@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dayel's Blog</title>
+    <link rel="stylesheet" href = "Assets/css/blog.css"/>
+    <link rel="stylesheet" href = "Assets/css/form.css"/>
+    <link rel="stylesheet" href = "Assets/css/styles.css"/>
+</head>
+<body>
+    <form id="blogForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required>
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" rows="4" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="blogPosts"></div>
+    <button id="modeToggle">Toggle Mode</button>    
+    <script src="Assets/jss/blog.js"></script>
+</body>
+</html>
