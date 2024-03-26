@@ -1,5 +1,5 @@
 // References to DOM elements
-const blogForm = document.getElementById('blogform');
+const blogForm = document.getElementById('blogForm');
 const blogPostsContainer = document.getElementById('blogPosts');
 const modeToggleBtn = document.getElementById('modeToggle');
 
@@ -10,11 +10,12 @@ blogForm.addEventListener('submit', function(event){
 
 // Render blog posts
 function renderBlogPosts() {
-
+   
 }
+
 // Event listener for toggle mode
 modeToggleBtn.addEventListener('click', function() {
-
+    document.body.classList.toggle('dark-mode');
 });
 
 renderBlogPosts();
