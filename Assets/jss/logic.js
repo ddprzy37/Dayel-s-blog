@@ -9,4 +9,4 @@ modeToggleBtn.addEventListener('click', function() {
 function goBack() {
     window.history.back();
 }
-console.log(goBack);
+// console.log(goBack);
