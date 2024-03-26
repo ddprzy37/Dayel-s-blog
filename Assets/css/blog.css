@@ -1,10 +1,11 @@
-/* Light */
-#modeToggle {
-    background-color: #f0f0f0;
-    color: #333;
+/* Light mode styles */
+body {
+    background-color: #ffffff;
+    color: #000000;
 }
-/* Dark */
-#modeToggle.dark-mode {
-    background-color: #333;
-    color: #f0f0f0;
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
 }

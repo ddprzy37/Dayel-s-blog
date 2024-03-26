@@ -23,6 +23,9 @@ blogForm.addEventListener('submit', function(event){
     // Save post
     saveBlogPost(blogPost);
 
+    //Redirect to posts page
+    window.location.href = 'index.html'
+
     // Clear data fields
     blogForm.reset();
 });
@@ -38,7 +41,7 @@ function saveBlogPost(blogPost) {
 
     // Add new posts the the existing array
     existingPosts.push(blogPost);
-
+    console.log('Updated Posts:', existingPosts); //debug
     // Store new array
     localStorage.setItem('blogPosts', JSON.stringify(existingPosts));
 }
