@@ -9,3 +9,74 @@ body {
     background-color: #333333;
     color: #ffffff;
 }
+
+.container {
+    display: flex;
+}
+
+.left, .right {
+    flex: 1;
+    padding: 20px;
+}
+
+.left {
+    text-align: center;
+}
+.image-container {
+    margin: 0 auto;
+    max-width: 100%;
+}
+.right {
+    text-align: left;
+    border-left: 2px solid black;
+}
+.center {
+    text-align: center;
+}
+form {
+   
+}
+
+#blogPosts {
+   
+}
+
+#modeToggle {
+   
+}
+
+.form-group {
+    margin-bottom: 20px; /* Add some spacing between form elements */
+}
+
+/* Style form elements as needed */
+#username, #title, #content {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical; /* Allow vertical resizing of textarea */
+}
+
+button[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+}
+
+button[type="submit"]:hover {
+    background-color: white; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+}
+
+
+

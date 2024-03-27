@@ -9,3 +9,25 @@ body {
     background-color: #333333;
     color: #ffffff;
 }
+
+/* Styles for blog posts */
+.blog-post {
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-post h2 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.blog-post p {
+    margin-bottom: 10px;
+}
+
+.blog-post .author {
+    font-style: italic;
+}
+
