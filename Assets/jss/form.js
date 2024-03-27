@@ -8,15 +8,15 @@ function renderBlogPosts() {
         
         for (let i = 0; i < existingPosts.length; i++) {
             const postDiv = document.createElement('div');
-            const usernameHeading = document.createElement('h3');
-            const titleHeading = document.createElement('h2');
+            const authorHeading = document.createElement('h2');
+            const titleHeading = document.createElement('h3');
             const contentParagraph = document.createElement('p');
 
-            usernameHeading.textContent = existingPosts[i].username;
-            titleHeading.textContent = existingPosts[i].title;
-            contentParagraph.textContent = existingPosts[i].content;
+            authorHeading.textContent = existingPosts[i].Author; 
+            titleHeading.textContent = existingPosts[i].Title; 
+            contentParagraph.textContent = existingPosts[i].Content; 
 
-            postDiv.appendChild(usernameHeading);
+            postDiv.appendChild(authorHeading);
             postDiv.appendChild(titleHeading);
             postDiv.appendChild(contentParagraph);
             blogPostsContainer.appendChild(postDiv);
@@ -25,4 +25,6 @@ function renderBlogPosts() {
         console.log("No posts yet.")
     }
 }
+renderBlogPosts();
+
 console.log(renderBlogPosts);

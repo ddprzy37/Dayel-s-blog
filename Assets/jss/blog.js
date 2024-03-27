@@ -15,9 +15,9 @@ blogForm.addEventListener('submit', function(event){
     console.log('Submitted Data:', username, title, content); //debug
     // Create a post
     const blogPost = {
-        username: username,
-        title: title,
-        content: content,
+        Author: username,
+        Title: title,
+        Content: content,
     }
 
     // Save post
