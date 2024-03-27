@@ -9,9 +9,15 @@ body {
     background-color: #333333;
     color: #ffffff;
 }
+.dark-mode footer a {
+    color: #ffffff;
+}
 
 .container {
     display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
 }
 
 .left, .right {
@@ -22,14 +28,17 @@ body {
 .left {
     text-align: center;
 }
+
 .image-container {
     margin: 0 auto;
     max-width: 100%;
 }
+
 .right {
     text-align: left;
     border-left: 2px solid black;
 }
+
 .center {
     text-align: center;
 }
