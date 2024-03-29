@@ -24,7 +24,7 @@ blogForm.addEventListener('submit', function(event){
     saveBlogPost(blogPost);
 
     //Redirect to posts page
-    window.location.href = 'index.html'
+    window.location.href = 'blog.html'
 
     // Clear data fields
     blogForm.reset();
