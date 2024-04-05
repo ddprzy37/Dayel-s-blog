@@ -21,6 +21,9 @@ Technologies used:
 * CSS
 * JavaScript
 
+Link to live site:
+https://ddprzy37.github.io/Dayel-s-blog/Links
+
 Screenshots
 
 ![Landing page](image.png)
