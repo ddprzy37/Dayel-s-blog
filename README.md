@@ -22,7 +22,7 @@ Technologies used:
 * JavaScript
 
 Link to live site:
-https://ddprzy37.github.io/Dayel-s-blog/Links
+https://ddprzy37.github.io/Dayel-s-blog/
 
 Screenshots
 
